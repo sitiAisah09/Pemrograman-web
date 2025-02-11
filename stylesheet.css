@@ -1,27 +1,40 @@
-li{
-    list-style: none;
-    float: left; 
-    padding: 10px;
-}
-
-.header-logo{
-    padding-top: 20px;
+.header-judul{
+    font-size: 50px;
+    padding-top: 12px;
     padding-left: 20px;
 }
-
+.main-judul{
+    font-size: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 12px;
+    padding-left: 420px;
+    padding-bottom: 30px;
+    
+}
 .header{
     height: 100px;
-    background-color: aqua;
+    background-color:deepskyblue;
     margin-bottom: 10px;
 }
 
 .main{
-    height: 300px;
-    background-color: aquamarine;
+    height: 400px;
+    background-color: lightskyblue;
     margin-bottom: 10px;
 }
 
 .footer{
-    height: 100px;
-    background-color: beige;
+    height: 180px;
+    background-color: lightblue;
+
+}
+
+.footer-judul{
+    font-size: 30px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 12px;
+    padding-left: 420px;
+    padding-bottom: 30px;
 }

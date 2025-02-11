@@ -2,31 +2,33 @@
 <html lang="en">
       <head> 
          <title>Latihan1 2A Polsub</title>
+         <link rel="stylesheet" href="stylesheet.css">
       </head>
 <body>
-    <!--untuk judulnya-->
-    <tr>
-        <div style="color :  #ffffff; margin: 0; background: orange; padding: 10px; clear: both; font-size: 1.8em; text-align: center;">Formulir Pendaftaran Online</div>
-    </tr>
-    <!--untuk pemilihan program kuliah-->
-    <td>Program Kuliah:</td>   
-    <td><select name="Pilih program">
-        <option value="Sistem Informasi" selected="selected">Sistem Informasi</option>
-        <option value="Kesehatan" selected="selected"> Kesehatan</option>
-        <option value="Agroindustri" selected="selected"> Agroindustri</option>
-    </select></td>
-    <br></br>
-        <td>Program:</td>
-        <td><select name="Pilih program studi">
-            <option value="Sistem Informasi" selected="selected">D3-Sistem Informasi</option>
-            <option value="Kesehatan" selected="selected"> D3-Keperawatan</option>
-            <option value="Agroindustri" selected="selected"> D3-Agroindustri</option>
-         </select></td>
-         <br></br>
+
+    <!--untuk judul dapat mendesain dibagian ini, kita dapat mengubah font, color, margin dan sebagainya-->
+    <div class="header">
+        <div class="header-judul">Formulir Pendaftaran Online</div>
+        <!--untuk pemilihan program kuliah-->
+    </div>
     
    <!--untuk mengisi Biodata-->
-   <div style="color :  #100f0f; margin: 0; font-size: 1.3em; text-align: center;">Biodata</div>
+   <div class="main">
+   <div class="main-judul">biodata</div>
+   <td>Program Kuliah:</td>   
+   <td><select name="Pilih program">
+       <option value="Sistem Informasi" selected="selected">Sistem Informasi</option>
+       <option value="Kesehatan" selected="selected"> Kesehatan</option>
+       <option value="Agroindustri" selected="selected"> Agroindustri</option>
+   </select></td>
    <br></br>
+       <td>Program:</td>
+       <td><select name="Pilih program studi">
+           <option value="Sistem Informasi" selected="selected">D3-Sistem Informasi</option>
+           <option value="Kesehatan" selected="selected"> D3-Keperawatan</option>
+           <option value="Agroindustri" selected="selected"> D3-Agroindustri</option>
+        </select></td>
+  <br></br>
     <td>Nama Lengkap</td> 
     <td>: <input type="text" name="nama lengkap"</td>
     <td>Jenis Kelamin</td> 
@@ -57,20 +59,23 @@
      <td>: <input type="text" name=" Jurusan"</td>
      <td>Kelas</td> 
      <td>: <input type="text" name=" Kelas"</td>
-     
-     <br></br>
-    <div style="color :  #100f0f; margin: 0; font-size: 1.3em; text-align: center;">Pendaftaran Akun</div> <br></br>
-    <td>Email</td> 
-    <td>: <input type="text" name=" Email"</td>
-    <td>No Telepon</td> 
-    <td>: <input type="text" name=" No Telepon"</td>
-    <br></br>
-    <td>Password</td> 
-    <td>: <input type="text" name=" Password"</td>
-    <td>Konfirmasi Password</td> 
-    <td>: <input type="text" name=" Konfirmasi password"</td>
-    <br></br>  
-    <td><input type="submit" name="Daftar" value="Daftar"</td>
+   </div>
+
+     <div class="footer">
+        <div class="footer-judul">Pendaftaran Akun</div>
+        <td>Email</td> 
+        <td>: <input type="text" name=" Email"</td>
+        <td>No Telepon</td> 
+        <td>: <input type="text" name=" No Telepon"</td>
+        <br></br>
+        <td>Password</td> 
+        <td>: <input type="text" name=" Password"</td>
+        <td>Konfirmasi Password</td> 
+        <td>: <input type="text" name=" Konfirmasi password"</td>
+        <br></br>  
+        <td><input type="submit" name="Daftar" value="Daftar"</td>
+     </div>
+   
 
 
 </body>
